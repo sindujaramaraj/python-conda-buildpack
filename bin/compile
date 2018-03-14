@@ -75,7 +75,7 @@ else
         $CONDA_BIN/pip install --quiet -r "$BUILD_DIR/requirements.txt"
     fi
 fi
-$CONDA_BIN/pip install "$BUILD_DIR/lib/mlpkit_security_extended-2.2.4-py2.py3-none-any.whl"
+$CONDA_BIN/pip install "$BUILD_DIR/lib/sapclea_mlpkit_security-2.2.3-py2.py3-none-any.whl"
 $CONDA_BIN/conda clean -pt
 
 #
